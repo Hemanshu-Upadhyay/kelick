@@ -9,7 +9,7 @@ import confettiAnimation from "@/animations/end-screen-lottie.json";
 import { SuccessDialogProps } from "../../types";
 import { cn } from "@/lib/utils";
 
-export function SuccessDialog({
+export default function SuccessDialog({
   open,
   onOpenChange,
   onGeneratePayroll,

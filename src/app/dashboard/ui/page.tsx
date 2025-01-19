@@ -7,12 +7,15 @@ import { Input } from "@/components/ui/input";
 import { toast, Toaster } from "sonner";
 import EmployeeTable from "@/components/employee-table";
 import StatsCards from "@/components/stats-card";
-import { SuccessDialog } from "@/components/dialog";
 import LoaderSpinner from "@/components/loader-spinner";
 import { useEmployees } from "@/hooks/useEmployee";
 import { motion } from "framer-motion";
 import { CustomSelect } from "@/components/ui/customSelect";
+import dynamic from "next/dynamic";
 
+const SuccessDialog: any = dynamic(() => import("@/components/dialog"), {
+  ssr: false,
+});
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
