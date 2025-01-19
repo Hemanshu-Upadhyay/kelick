@@ -34,7 +34,7 @@ export default function HeroSection() {
               >
                 <Image
                   src="/icons/Search-1.svg"
-                  alt="Start building your team"
+                  alt="Kelick"
                   width={48}
                   height={48}
                   className="w-full h-full"
@@ -58,7 +58,7 @@ export default function HeroSection() {
                     className="gap-2"
                   >
                     <img
-                      alt="Bulk Upload"
+                      alt="Upload"
                       src="/icons/upload.svg"
                       className="h-4 w-4"
                     />
@@ -75,7 +75,7 @@ export default function HeroSection() {
                     className="bg-[#02B9B0] hover:bg-[#02B9B0]/90 gap-2"
                   >
                     <img
-                      alt="Add Employee"
+                      alt="Employee"
                       src="/icons/addEmployee.svg"
                       className="h-4 w-4"
                     />
