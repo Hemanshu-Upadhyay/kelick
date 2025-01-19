@@ -32,6 +32,7 @@ export function Sidebar({ className, onNavigate, ...props }: SidebarProps) {
       >
         <motion.img
           src={icon}
+          alt={icon}
           className="fonth-4 w-4"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -110,6 +111,7 @@ export function Sidebar({ className, onNavigate, ...props }: SidebarProps) {
               <div className="flex items-center gap-3">
                 <motion.img
                   src="/icons/organisation.svg"
+                  alt="Organization"
                   className="h-4 w-4"
                   whileHover={{ scale: 1.1 }}
                 />

@@ -57,7 +57,11 @@ export default function HeroSection() {
                     onClick={() => setOpen(true)}
                     className="gap-2"
                   >
-                    <img src="/icons/upload.svg" className="h-4 w-4" />
+                    <img
+                      alt="Bulk Upload"
+                      src="/icons/upload.svg"
+                      className="h-4 w-4"
+                    />
                     Bulk Upload
                   </Button>
                 </motion.div>
@@ -70,7 +74,11 @@ export default function HeroSection() {
                     onClick={() => setOpen(true)}
                     className="bg-[#02B9B0] hover:bg-[#02B9B0]/90 gap-2"
                   >
-                    <img src="/icons/addEmployee.svg" className="h-4 w-4" />
+                    <img
+                      alt="Add Employee"
+                      src="/icons/addEmployee.svg"
+                      className="h-4 w-4"
+                    />
                     Add Employee
                   </Button>
                 </motion.div>

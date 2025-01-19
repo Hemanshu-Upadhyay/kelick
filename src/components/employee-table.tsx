@@ -61,6 +61,7 @@ const EmployeeTable: React.FC<EmployeeTableProps> = ({
                 <TableHead className="w-12 p-4 text-center">
                   <input
                     type="checkbox"
+                    aria-label="Select all employees"
                     className="rounded border-gray-300 text-[#02B9B0]"
                     checked={selectAll}
                     onChange={handleSelectAll}
